@@ -1,9 +1,19 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <nav id="nav" class="navbar navbar-light bg-light">
+      
+        <a class="navbar-brand" href="#">
+        <img src="@/assets/logo.webp"  
+          height="35" 
+          class="d-inline-block align-top" 
+          alt="">
+          Coachera
+            </a>
+      
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
+      <router-link to="/login">login</router-link> 
+      <router-link to="/signup">SignUp</router-link>
+    </nav>
     <router-view/>
   </div>
 </template>
