@@ -1,20 +1,27 @@
 <template>
   <div id="app">
-    <nav id="nav" class="navbar navbar-light bg-light">
+    <nav id ="nav" class="navbar">
       
-        <a class="navbar-brand" href="#">
-        <img src="@/assets/logo.webp"  
-          height="35" 
-          class="d-inline-block align-top" 
-          alt="">
-          Coachera
-            </a>
+        
+      <a class="navbar-brand" href="#">
+        <img src="@/assets/logo.webp" 
+        height="40"
+        class="d-inline-block align-top"
+        loadings ="lazy"
+        /> 
+
+     
+      </a>
+        <h1>Coachera</h1>
+     
+      <router-link to="/signup" style=" color:black" >Get Started</router-link>
       
-      <router-link to="/">Home</router-link> |
-      <router-link to="/login">login</router-link> 
-      <router-link to="/signup">SignUp</router-link>
     </nav>
-    <router-view/>
+
+    <div class="container">
+      <router-view/>
+    </div>
+  
   </div>
 </template>
 
@@ -29,8 +36,10 @@
 
 #nav {
   padding: 30px;
+  background-color: white !important;
 
   a {
+    font-size: 20px;
     font-weight: bold;
     color: #2c3e50;
 

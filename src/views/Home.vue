@@ -1,25 +1,11 @@
-
 <template>
-  <div class="container">
-    <div class="row">
-        <div class="col-xs-12 col-sm-6 col-md-8 col-centered">
-            <div class="maintxt">
-                Elevate your Game !
-            </div>
-        </div>
-    </div>
-</div>
+  <div class ="box" id="bg">
+    <img src="@/assets/home.png"
+    width="100%" 
+    height="621"
+     />
+  </div>
 </template>
-
-<style>
-  .maintxt { 
-    background-image: url="@/assets/home.webp";
-    background-size: cover;
-}
-
-
-</style>
-
 
 <script>
 // @ is an alias to /src
@@ -32,3 +18,21 @@ export default {
   }
 }
 </script>
+
+<style>
+  #bg {
+  background: url("../assets/home.png") no-repeat center center fixed;
+  -webkit-background-size : cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+
+}
+  .box {
+  position:absolute;
+
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+</style>
