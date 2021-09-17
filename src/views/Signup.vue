@@ -71,7 +71,5 @@
   bottom:0px;
   left:0px;
 }
-.white {
- 
-}
+
 </style>
