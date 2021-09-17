@@ -4,7 +4,7 @@
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-md-8 col-centered">
             <div class="maintxt">
-                My great text.
+                Elevate your Game !
             </div>
         </div>
     </div>
@@ -12,7 +12,7 @@
 </template>
 
 <style>
-  .maintxt {
+  .maintxt { 
     background-image: url="@/assets/home.webp";
     background-size: cover;
 }
